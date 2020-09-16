@@ -1,5 +1,5 @@
 class CosineSimilarity(object):
-    def __init__(self, content_x1, content_y2):
+    def __init__(self, content_x1, content_y2)：
         self.s1 = content_x1
         self.s2 = content_y2
 
