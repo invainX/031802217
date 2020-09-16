@@ -8,11 +8,8 @@ import jieba.analyse
 # 机器学习包
 from sklearn.metrics.pairwise import cosine_similarity
 import sys
-
+#余弦相似度
 class CosineSimilarity(object):
-    """
-    余弦相似度
-    """
     def __init__(self, content_x1, content_y2):
         self.s1 = content_x1
         self.s2 = content_y2
